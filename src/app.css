@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Work Sans';
+		font-weight: 400;
+		src: url('$lib/assets/fonts/work-sans-v16-latin-regular.woff2') format('woff2');
+	}
+	:root {
+		
+	}
+}

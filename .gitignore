@@ -1,0 +1,4 @@
+node_modules
+database/docker-compose.yml
+database/pg_data
+.svelte-kit
