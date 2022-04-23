@@ -78,7 +78,7 @@ CREATE TABLE comment (
   activity_id BIGINT NOT NULL,
   created_at TIMESTAMPTZ DEFAULT NOW() NOT NULL,
   updated_at TIMESTAMPTZ DEFAULT NOW() NOT NULL,
-  comment VARCHAR(255), 
+  comment TEXT, 
   CONSTRAINT fk_hacker FOREIGN KEY(hacker_id) REFERENCES hacker(id),
   CONSTRAINT fk_activity FOREIGN KEY(activity_id) REFERENCES activity(id)
 );

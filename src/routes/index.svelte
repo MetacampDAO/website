@@ -37,8 +37,6 @@
 			<a class="mx-auto bg-tertiary rounded-md p-2 text-base text-center text-light font-semibold hover:text-light hover:bg-primary focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://t.me/+_aIlLFNyG49kZWY9" target="_blank" rel="noopener noreferrer">
 				<span>Join Telegram</span>
 			</a>
-			<button class="mx-auto bg-primary rounded-md p-2 text-base text-light font-semibold hover:text-light hover:bg-secondary" on:click= {test}>as
-			</button>
 		</div>
 	</div>
 </section>
