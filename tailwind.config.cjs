@@ -15,7 +15,7 @@ module.exports = {
         'dark': '#334155',
       },
       backgroundImage: {
-        'main': "url('background.jpg')",
+        'main': "url('$lib/assets/background.jpg')",
       }
     },
   },

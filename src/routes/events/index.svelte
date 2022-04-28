@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { enhance } from '$lib/form';
 	import { scale } from 'svelte/transition';
 	import { flip } from 'svelte/animate';
@@ -37,11 +37,11 @@
 </script>
 
 <svelte:head>
-	<title Events</title>
+	<title>Events</title>
 </svelte:head>
 
-<div class= Events">
-	<h1 Events</h1>
+<div class= "Events">
+	<h1>Events</h1>
 
 	<form
 		class="new"
@@ -56,10 +56,10 @@
 		<input name="text" aria-label="Add Event" placeholder="+ tap to add a Event" />
 	</form>
 
-	{#each Events as Event  Event.title)}
+	{#each Events as Event.title)}
 		<div
-			class= Event"
-			class:done= Event.done}
+			class="Event"
+			class:done= {Event.done}
 			transition:scale|local={{ start: 0.7 }}
 			animate:flip={{ duration: 200 }}
 		>
@@ -205,4 +205,4 @@
 		transition: opacity 0.2s;
 		opacity: 1;
 	}
-</style>
+</style> -->

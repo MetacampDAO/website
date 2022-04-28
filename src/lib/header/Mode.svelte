@@ -18,10 +18,11 @@ let state = 'undefined'
 
 </script>
 
-<div class="bg-grey dark:bg-dark rounded-md p-1 text-base text-center  hover:bg-primary dark:hover:bg-primary" on:click={toggle}>
+
+<div class="bg-grey dark:bg-dark rounded-md p-1 hover:bg-primary dark:hover:bg-primary" on:click={toggle}>
     {#if state == "dark" }
         <img src={sun} alt="sun">
     {:else}
-        <img src={moon} alt="moon">     
+        <img src={moon} alt="moon">
     {/if}
 </div>

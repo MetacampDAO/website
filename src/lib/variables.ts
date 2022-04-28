@@ -1,0 +1,8 @@
+// EXTRACT ENVIRONMENT VARIABLES FOR BUILD 
+export const variables = {
+    VITE_MONGODB_URI: import.meta.env.VITE_MONGODB_URI,
+    VITE_PORT: import.meta.env.VITE_PORT,
+    VITE_GOOGLE_CLIENT_ID: import.meta.env.VITE_GOOGLE_CLIENT_ID,
+    VITE_GOOGLE_CLIENT_SECRET: import.meta.env.VITE_GOOGLE_CLIENT_SECRET,
+    VITE_PASSPORT_SECRET: import.meta.env.VITE_PASSPORT_SECRET
+  };
