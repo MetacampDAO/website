@@ -1,8 +1,8 @@
 <script>
 	import { onMount } from 'svelte';
 	import { xlink_attr } from 'svelte/internal';
-	import solanaLogoMark from '$lib/assets/solanaLogoMark.svg';
-	import { count } from '../stores'
+	import solanaLogoMark from '$lib/assets/images/solanaLogoMark.svg';
+	import { count } from '../../stores'
 	
 
 	let characters = ['🥳', '🎉', '✨'];

@@ -1,7 +1,8 @@
 <script lang="ts">
 
-	import Header from '$lib/header/Header.svelte';
-	import Rain from '$lib/Rain.svelte'
+	import Header from '$lib/layout/Header.svelte';
+	import Footer from '$lib/layout/Footer.svelte'
+	import SolanaRain from '$lib/layout/SolanaRain.svelte'
 	import '../app.css';
 
 </script>
@@ -13,11 +14,9 @@
 	<Header />
 
 	<slot/>
-	<Rain />
+	<SolanaRain />
 	
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
-	
+	<Footer />
+
 </body>
 

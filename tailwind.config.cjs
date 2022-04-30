@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        test: ["'Work Sans'", "serif"],
+        main: ["Nunito", "serif"],
       },
       colors: {
         'primary': '#A170D9',
@@ -15,7 +15,7 @@ module.exports = {
         'dark': '#334155',
       },
       backgroundImage: {
-        'main': "url('$lib/assets/background.jpg')",
+        'main': "url('$lib/assets/OpenHaus.svg')",
       }
     },
   },

@@ -1,7 +1,7 @@
 <script>
     import { theme } from '../../stores';
-    import sun from '$lib/assets/sun.svg';
-    import moon from '$lib/assets/moon.svg';
+    import sun from '$lib/assets/images/darkmode/sun.svg';
+    import moon from '$lib/assets/images/darkmode/moon.svg';
 
 let state = 'undefined'
 

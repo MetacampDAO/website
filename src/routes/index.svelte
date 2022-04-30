@@ -3,40 +3,57 @@
 </script>
 
 <script lang="ts">
-	import About from "./about.svelte";
+    import OpenHaus from '$lib/assets/images/OpenHaus.svg'
+	import Telegram from '$lib/assets/images/socialmedia/telegram.svg'
+	import whiteDiscord from '$lib/assets/images/socialmedia/discord_white.svg'
+	import blackDiscord from '$lib/assets/images/socialmedia/discord_black.svg'
+	import { theme } from '../stores'
 
-	export async function test() {
-		let response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
-		let status = await response.json()
-		return status.id
-	}
-
-	const output =  test()
-
+	let themeValue;
+	themeValue = theme.subscribe(value => {themeValue = value})
 
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>OpenHaus</title>
 </svelte:head>
 
 
-<section class="w-full h-screen bg-main bg-cover bg-center">
-	<div class="flex flex-col h-screen items-center space-x-4 m-4 justify-center">
+<section class="w-full h-screen font-main">
+	<div class="grid h-screen grid-cols-2 items-center space-x-4 m-4 justify-center">
 		<div 
-		class="flex flex-col space-y-4 mx-auto p-8 justify-center bg-dark bg-opacity-70 rounded-md text-6xl text-primary">
+		class="flex flex-col mx-auto p-4 justify-center text-6xl text-primary">
+			<div class="text-primary mb-2 text-5xl font-semibold tracking-wider">
+				OpenHaus <span class="text-secondary font-semibold">Singapore</span>
+				
+			</div>
+			<div class="mb-8 text-dark dark:text-light text-xl font-semibold">
+				Nurturing Web3 Builders & Ventures
+			</div>
+			<div class="flex flex-col-reverse justify-end">
+				<a class="flex items-center rounded-md p-4 text-base  text-dark dark:text-light font-semibold hover:text-black dark:hover:text-light hover:bg-light dark:hover:bg-dark focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://t.me/+_aIlLFNyG49kZWY9" target="_blank" rel="noopener noreferrer">
+					<div class="justify-center mr-2">
+						<img class="object-center" src="{Telegram}" alt="Telegram">
+					</div>
+					<p>Telegram</p>
+					
+				</a>
+				<a class="flex items-center rounded-md p-4 text-base text-dark dark:text-light font-semibold hover:text-black dark:hover:text-light hover:bg-light dark:hover:bg-dark focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://discord.gg/vHvp6FW3" target="_blank" rel="noopener noreferrer">
+					<div class="justify-center mr-2">
+						{#if themeValue == "light" }
+							<img src="{blackDiscord}" alt="blackDiscord">
+						{:else}
+							<img src="{whiteDiscord}" alt="whiteDiscord">	
+						{/if}		
+					</div>
+					<div><p>Discord</p></div>		
+				</a>
+			</div>
+		</div>
+		<div class="flex flex-col space-y-4 mx-auto p-8 justify-center rounded-md text-6xl text-primary">
 			<div class="text-primary text-5xl text-center font-semibold">
-				Solana Hacker Community
+				<img class="blur-lg hover:blur-none" src="{OpenHaus}" alt="OpenHaus">
 			</div>
-			<div class="text-secondary text-3xl text-center font-semibold">
-				Singapore
-			</div>
-			<div class="text-light text-xl text-center font-semibold">
-				Let’s meet, share, and learn!
-			</div>
-			<a class="mx-auto bg-tertiary rounded-md p-2 text-base text-center text-light font-semibold hover:text-light hover:bg-primary focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://t.me/+_aIlLFNyG49kZWY9" target="_blank" rel="noopener noreferrer">
-				<span>Join Telegram</span>
-			</a>
 		</div>
 	</div>
 </section>
