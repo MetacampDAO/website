@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import Toggle from '$lib/layout/Darkmode.svelte';
 	import { count } from '../../stores';
+	import OpenHaus from '$lib/assets/images/OpenHaus.svg'
 
 	let countValue;
 	count.subscribe(value => {
@@ -9,6 +10,11 @@
 	});
 
 </script>
+
+
+<head>
+	<link rel="icon" href="{OpenHaus}" />
+</head>
 
 <header class="m-6">
 
