@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import { xlink_attr } from 'svelte/internal';
 	import solanaLogoMark from '$lib/assets/images/solanaLogoMark.svg';
@@ -56,10 +56,12 @@
 	export let counter = 0
 	function hideElement(id) {
 		var r = /\d+/;
+		confetti[id.match(r)[0].character];
 		confetti[id.match(r)[0]].state = "none";
 		counter += 1;
 		count.set(counter)
 	}
+
 
 </script>
 
@@ -67,5 +69,7 @@
 	<!-- <span style="position: absolute; font-size: 5vw; user-select: none; left: {c.x}%; top: {c.y}%; transform: scale({c.r})">{c.character}</span> -->
 
 	<div id="{c.id}" style="position: absolute; font-size: 2vw; user-select: none; left: {c.x}%; top: {c.y}%; transform: scale({c.r}); display: {c.state}" on:click="{hideElement(c.id)}" on:dragstart="{hideElement(c.id)}"><img src={solanaLogoMark} alt="Solana" /></div>
+
+	
 	
 {/each}
