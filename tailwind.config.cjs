@@ -15,7 +15,7 @@ module.exports = {
         'dark': '#334155',
       },
       backgroundImage: {
-        'main': "url('$lib/assets/OpenHaus.svg')",
+        'main': "url('$lib/assets/images/OpenHaus.svg')",
       }
     },
   },

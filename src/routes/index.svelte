@@ -52,7 +52,7 @@
 		</div>
 		<div class="flex flex-col space-y-4 mx-auto p-8 justify-center rounded-md text-6xl text-primary">
 			<div class="text-primary text-5xl text-center font-semibold">
-				<img class="blur-lg hover:blur-none" src="{OpenHaus}" alt="OpenHaus">
+				<img class="" src="{OpenHaus}" alt="OpenHaus">
 			</div>
 		</div>
 	</div>
