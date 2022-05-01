@@ -27,7 +27,7 @@
 				OpenHaus <span class="text-secondary font-semibold">Singapore</span>
 				
 			</div>
-			<div class="mb-8 text-xl font-semibold">
+			<div class="mb-8 text-xl font-semibold text-dark dark:text-light">
 				Nurturing Web3 Builders & Ventures
 			</div>
 			<div class="flex flex-col justify-end">
