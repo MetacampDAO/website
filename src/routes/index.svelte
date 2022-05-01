@@ -50,7 +50,7 @@
 			</div>
 		</div>
 		<div class="flex flex-col mx-auto p-4 justify-center text-6xl text-primary">
-			<img class="object-fit" src="{OpenHaus}" alt="OpenHaus">
+			<img class="object-cover" src="{OpenHaus}" alt="OpenHaus">
 		</div>
 	</div>
 </section>
