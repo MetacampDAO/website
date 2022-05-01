@@ -3,7 +3,7 @@
 </script>
 
 <script lang="ts">
-    import OpenHaus from '$lib/assets/images/OpenHaus.svg'
+    import OpenHaus from '$lib/assets/images/OpenHaus.png'
 	import Telegram from '$lib/assets/images/socialmedia/telegram.svg'
 	import whiteDiscord from '$lib/assets/images/socialmedia/discord_white.svg'
 	import blackDiscord from '$lib/assets/images/socialmedia/discord_black.svg'
@@ -20,7 +20,7 @@
 
 
 <section class="w-full h-screen font-main">
-	<div class="grid h-screen grid-cols-2 items-center space-x-4 m-4 justify-center">
+	<div class="grid md:h-screen md:grid-cols-2 xs:grid-cols-1 items-center space-x-4 m-4 xs:space-y-6 justify-center">
 		<div 
 		class="flex flex-col mx-auto p-4 justify-center text-6xl text-primary">
 			<div class="text-primary mb-2 text-5xl font-semibold tracking-wider">
@@ -49,7 +49,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="flex flex-col space-y-4 mx-auto p-8 justify-center rounded-md text-6xl text-primary">
+		<div class="flex flex-col space-y-4 mx-auto justify-center rounded-md text-6xl text-primary">
 			<div class="text-primary text-5xl text-center font-semibold">
 				<img class="" src="{OpenHaus}" alt="OpenHaus">
 			</div>

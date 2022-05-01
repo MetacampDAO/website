@@ -9,7 +9,7 @@
 
 
 
-<body class="bg-white dark:bg-black text-dark dark:text-light font-test">
+<body class="bg-white dark:bg-black text-dark dark:text-light no-scrollbar">
 
 	<Header />
 

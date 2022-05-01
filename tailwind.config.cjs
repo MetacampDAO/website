@@ -2,6 +2,10 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   darkMode: 'class',
   theme: {
+    screens: {
+      xs: "420px",
+      md: "580px"
+    },
     extend: {
       fontFamily: {
         main: ["Nunito", "serif"],
@@ -19,5 +23,6 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }

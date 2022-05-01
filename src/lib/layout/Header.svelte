@@ -18,7 +18,7 @@
 	<link rel="icon" href="{OpenHaus}" />
 </head>
 
-<header class="m-6">
+<header class="m-6 p-6">
 
 	<div class="flex space-x-12 justify-center align-middle items-center h-full font-main text-black dark:text-white">
 		<div class="absolute left-6 top-6">
