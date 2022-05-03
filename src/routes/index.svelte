@@ -37,7 +37,7 @@
 					</div>
 					<div><p>Telegram</p></div>
 				</a>
-				<a class="flex items-center rounded-md p-4 text-base font-semibold hover:text-black dark:hover:text-light hover:bg-light dark:hover:bg-dark focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://discord.gg/vHvp6FW3" target="_blank" rel="noopener noreferrer">
+				<a class="flex items-center rounded-md p-4 text-base font-semibold hover:text-black dark:hover:text-light hover:bg-light dark:hover:bg-dark focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://discord.gg/6aE3dME5" target="_blank" rel="noopener noreferrer">
 					<div class="justify-center mr-2">
 						{#if themeValue == "light" }
 							<img src="{blackDiscord}" alt="blackDiscord">
