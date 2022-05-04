@@ -28,7 +28,7 @@
 				
 			</div>
 			<div class="mb-8 text-xl font-semibold">
-				Nurturing Web3 Builders & Ventures
+				Nurturing Web3 builders, entrepreneurs and startups
 			</div>
 			<div class="flex flex-col justify-end">
 				<a class="flex items-center rounded-md p-4 text-base font-semibold hover:text-black dark:hover:text-light hover:bg-light dark:hover:bg-dark focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://t.me/+_aIlLFNyG49kZWY9" target="_blank" rel="noopener noreferrer">
