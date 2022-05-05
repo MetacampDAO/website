@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { xlink_attr } from 'svelte/internal';
-	import solanaLogoMark from '$lib/assets/images/solanaLogoMark.svg';
+	import solanaLogoMark from '$lib/assets/images/branding/solanaLogoMark.svg';
 	import { count } from '../../stores'
 	
 

@@ -3,7 +3,7 @@
 </script>
 
 <script lang="ts">
-    import OpenHaus from '$lib/assets/images/OpenHaus.png'
+    import OpenHaus from '$lib/assets/images/branding/OpenHaus.png'
 	import Telegram from '$lib/assets/images/socialmedia/telegram.svg'
 	import whiteDiscord from '$lib/assets/images/socialmedia/discord_white.svg'
 	import blackDiscord from '$lib/assets/images/socialmedia/discord_black.svg'
@@ -24,7 +24,7 @@
 		<div 
 		class="flex flex-col mx-auto p-4 justify-center text-6xl">
 			<div class="text-primary mb-2 text-5xl font-semibold tracking-wider">
-				OpenHaus <span class="text-secondary font-semibold">Singapore</span>
+				<a href="/" class="">OpenHaus</a> <span class="text-secondary font-semibold">Singapore</span>
 				
 			</div>
 			<div class="mb-8 text-xl font-semibold">

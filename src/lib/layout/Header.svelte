@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import Toggle from '$lib/layout/Darkmode.svelte';
 	import { count } from '../../stores';
-	import OpenHaus from '$lib/assets/images/OpenHaus.svg'
+	import OpenHaus from '$lib/assets/images/branding/OpenHaus.svg'
 
 	let countValue;
 	count.subscribe(value => {
@@ -22,9 +22,10 @@
 
 	<div class="flex space-x-12 justify-center align-middle items-center h-full font-main text-black dark:text-white">
 		<div class="absolute left-6 top-6">
+			<a href="/">
 			<div class:active={$page.url.pathname === '/'}>
 				<p class="font-bold tracking-widest text-2xl">OpenHaus</p>
-			</div>
+			</div></a>
 			<div class="font-bold tracking-normal text-xs">
 				Points: {countValue}
 			</div>
