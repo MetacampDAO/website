@@ -4,20 +4,20 @@
         "Time": "Thursday, May 5, 2022, 7:00 PM to 10:00 PM (SGT)",
         "Location": "Draper Startup House, Singapore 069716",
         "Description": "Weekly Meetup",
-        "Picture": "/src/lib/assets/images/photos/event_1.png"
+        "Picture": "https://www.meetup.com/_next/image/?url=https%3A%2F%2Fsecure-content.meetupstatic.com%2Fimages%2Fclassic-events%2F503445306%2F676x380.webp&w=3840&q=75"
     },    
     {
         "Title": "2nd Solana Developer Meetup",
         "Time": "Thursday, April 28, 2022, 7:00 PM to 10:00 PM (SGT)",
         "Location": "Draper Startup House, Singapore 069716",
         "Description": "Weekly Meetup",
-        "Picture": "/src/lib/assets/images/photos/event_2.png"
+        "Picture": "https://www.meetup.com/_next/image/?url=https%3A%2F%2Fsecure-content.meetupstatic.com%2Fimages%2Fclassic-events%2F503579000%2F676x380.webp&w=3840&q=75"
     },
     {
         "Title": "3rd Solana Developer Meetup",
         "Time": "Thursday, April 21, 2022, 7:00 PM to 10:00 PM (SGT)",
         "Location": "Draper Startup House, Singapore 069716",
         "Description": "Weekly Meetup",
-        "Picture": "/src/lib/assets/images/photos/event_3.png"
+        "Picture": "https://www.meetup.com/_next/image/?url=https%3A%2F%2Fsecure-content.meetupstatic.com%2Fimages%2Fclassic-events%2F503579000%2F676x380.webp&w=3840&q=75"
     }
 ]
