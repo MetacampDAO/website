@@ -1,7 +1,5 @@
 <script>
-    import eventPhoto from '$lib/assets/images/photos/event3.jpg'
     import events from '$lib/tempdatabase/events.json'
-
 </script>
 
 
@@ -12,7 +10,7 @@
 
         {#each events as event, i}
         <div class="bg-light rounded-lg shadow-lg m-4">
-        <img src="{eventPhoto}" alt="event" class="rounded-t-lg">
+        <img src="{event.Picture}" alt="event" class="object-cover h-80 w-full rounded-t-lg">
             <div class="p-6">
                 <h2 class="font-bold text-2xl text-primary">{event.Title}
                 </h2>
