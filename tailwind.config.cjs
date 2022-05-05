@@ -12,14 +12,14 @@ module.exports = {
       },
       colors: {
         'primary': '#A170D9',
-        'secondary': '#05CAB6',
+        'secondary': '#f',
         'tertiary': '#0088cc',
         'light': '#e2e8f0',
         'grey': '#64748b',
         'dark': '#334155',
       },
       backgroundImage: {
-        'main': "url('$lib/assets/images/OpenHaus.svg')",
+        'main': "url('$lib/assets/images/branding/OpenHaus.svg')",
       }
     },
   },
