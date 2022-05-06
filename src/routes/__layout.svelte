@@ -12,7 +12,6 @@
 <body class="bg-white dark:bg-black text-dark dark:text-light no-scrollbar">
 
 	<Header />
-
 	<slot/>
 	<SolanaRain />
 	

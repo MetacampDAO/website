@@ -37,10 +37,12 @@
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.8",
     "@lukeed/uuid": "^2.0.0",
+    "@solana/wallet-adapter-base": "^0.9.5",
+    "@solana/wallet-adapter-wallets": "^0.16.0",
+    "@solana/web3.js": "^1.41.4",
+    "@svelte-on-solana/wallet-adapter-core": "^1.0.3-alpha.1",
     "cookie": "^0.5.0",
     "jose": "^4.8.1",
-    "mongoose": "^6.3.2",
-    "passport": "^0.5.2",
-    "passport-google-oauth20": "^2.0.0"
+    "mongoose": "^6.3.2"
   }
 }

@@ -9,6 +9,8 @@
 		countValue = value;
 	});
 
+	import Adapter from '$lib/components/solana/Adapter.svelte';
+
 </script>
 
 
@@ -30,7 +32,10 @@
 				Points: {countValue}
 			</div>
 		</div>
-		<div class="absolute right-6 top-6">
+		<div class="absolute right-16 top-6 h-4">
+			<Adapter />
+		</div>
+		<div class="absolute right-6 top-8">
 			<Toggle />
 		</div>
 		<div class="hidden">

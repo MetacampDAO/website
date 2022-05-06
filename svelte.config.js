@@ -14,13 +14,15 @@ const config = {
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
 		},
-		// vite: {
-		// 	server: {
-		// 		fs: {
-		// 			allow: ['/home/lovshains/svelte-playground/static/']
-		// 		}
-		// 	}
-		// }
+		vite: {
+			// SOLANA WALLET ADAPTER
+			define: {
+				'process.env.BROWSER': true
+			},
+			optimizeDeps: {
+				include: ['@solana/web3.js', 'buffer']
+			}
+		}
 	}
 };
 
