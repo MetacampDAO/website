@@ -24,7 +24,7 @@
 		<div 
 		class="flex flex-col mx-auto p-4 justify-center text-6xl">
 			<div class="text-primary mb-2 text-5xl font-semibold tracking-wider">
-				<a href="/" class="">OpenHaus</a> <span class="text-secondary font-semibold">Singapore</span>
+				OpenHaus <span class="text-secondary font-semibold">Singapore</span>
 				
 			</div>
 			<div class="mb-8 text-xl font-semibold">
@@ -37,7 +37,7 @@
 					</div>
 					<div><p>Telegram</p></div>
 				</a>
-				<a class="flex items-center rounded-md p-4 text-base font-semibold hover:text-black dark:hover:text-light hover:bg-light dark:hover:bg-dark focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://discord.gg/6aE3dME5" target="_blank" rel="noopener noreferrer">
+				<a class="flex items-center rounded-md p-4 text-base font-semibold hover:text-black dark:hover:text-light hover:bg-light dark:hover:bg-dark focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://discord.gg/7SXtqPJK" target="_blank" rel="noopener noreferrer">
 					<div class="justify-center mr-2">
 						{#if themeValue == "light" }
 							<img src="{blackDiscord}" alt="blackDiscord">

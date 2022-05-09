@@ -23,7 +23,6 @@
 
 		wallets = [new PhantomWalletAdapter(), new SolflareWalletAdapter()];
 	});
-
 </script>
 
 <section>
