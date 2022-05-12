@@ -1,11 +1,6 @@
 <script>
     import events from '$lib/tempdatabase/events.json'
-    import Adapter from '$lib/components/solana/Adapter.svelte'
 </script>
-
-<Adapter/>
-
-<iframe title="Kibana" class="min-w-full min-h-screen" src="https://es.lovshains.com/s/anonymous/app/dashboards#/view/6702629d-80d8-5b84-8a10-aa7dd8c44dc4?embed=true&_g=(filters%3A!()%2CrefreshInterval%3A(pause%3A!t%2Cvalue%3A0)%2Ctime%3A(from%3Anow-2w%2Cto%3Anow))&show-top-menu=true&show-query-input=true&show-time-filter=true"></iframe>
 
 <div class="p-10 w-full">
     <h3 class="text-primary text-4xl font-main font-bold mb-4">Events</h3>
