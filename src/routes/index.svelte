@@ -7,6 +7,8 @@
 	import Telegram from '$lib/assets/images/socialmedia/telegram.svg'
 	import whiteDiscord from '$lib/assets/images/socialmedia/discord_white.svg'
 	import blackDiscord from '$lib/assets/images/socialmedia/discord_black.svg'
+	import whiteTwitter from '$lib/assets/images/socialmedia/twitter_white.svg'
+	import blackTwitter from '$lib/assets/images/socialmedia/twitter_black.svg'
 	import { theme } from '../stores'
 
 	let themeValue;
@@ -46,6 +48,16 @@
 						{/if}		
 					</div>
 					<div><p>Discord</p></div>		
+				</a>
+				<a class="flex items-center rounded-md p-4 text-base font-semibold hover:text-black dark:hover:text-light hover:bg-light dark:hover:bg-dark focus:outline-none focus:ring-1 focus:ring-inset focus:ring-light" href="https://twitter.com/OpenHausSG" target="_blank" rel="noopener noreferrer">
+					<div class="justify-center mr-2">
+						{#if themeValue == "light" }
+							<img src="{blackTwitter}" alt="blackTwitter">
+						{:else}
+							<img src="{whiteTwitter}" alt="whiteTwitter">	
+						{/if}		
+					</div>
+					<div><p>Twitter</p></div>		
 				</a>
 			</div>
 		</div>

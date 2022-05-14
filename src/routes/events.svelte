@@ -1,8 +1,12 @@
 <script>
     import events from '$lib/tempdatabase/events.json'
+    import Carousel from '$lib/components/Carousel.svelte'
 </script>
 
+<Carousel />
+
 <div class="p-10 w-full">
+
     <h3 class="text-primary text-4xl font-main font-bold mb-4">Events</h3>
 
     <div class="grid grid-cols-3">
